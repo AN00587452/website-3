@@ -1,8 +1,7 @@
 <?php
-
 // Example of config file, add your own values here, all are imaginary
-
-return array(
+return array
+(
     'release_title'    => 'Hera',
     'release_version'  => '5.1.7',
     'release_filename' => 'elementaryos-5.1-stable.20200814.iso',
@@ -22,7 +21,6 @@ return array(
 
     'stripe_sk' => 'sk_test_hoigesrjgoisrhgilgjrsfjs',
     'stripe_pk' => 'pk_test_hoigesrjgoisrhgilgjrsfjs',
-
     'previous_stripe_sk' => 'sk_test_hoigesrjgoisrhgilgjrsfjs',
 
     'slack_token' => 'asdf-1234567890-7418529630-a7854123692-8412487519',
@@ -42,4 +40,4 @@ return array(
     'twitter_access_secret'   => 'test_asecret',
 
     'covid_estimate' => '<strong>Due to COVID-19, orders may be delayed.</strong> Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination.',
-);
+    );
